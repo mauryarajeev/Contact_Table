@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contacts</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Contact List</h1>
+		<form>
+			<div>
+				<label for="name">Person Name:</label>
+				<input type="text" id="name" name="name" required>
+			</div>
+			<div>
+				<label for="contact"> Contact Number:</label>
+				<input type="tel" id="contact" name="contact" required>
+			</div>
+			<div>
+				<input type="submit" value="Add Contact">
+			</div>
+		</form>
+		<div class="search">
+			<label for="search">Search by Name:</label>
+			<input type="text" id="search" name="search">
+			<button id="searchBtn">Search</button>
+		</div>
+		<table id="contactsTable">
+			<thead>
+				<tr>
+                    <th>S.N</th>
+					<th>Name</th>
+					<th>Contact</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="table.js"></script>
+</body>
+</html>

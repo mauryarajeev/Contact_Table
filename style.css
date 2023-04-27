@@ -1,0 +1,89 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+form > div {
+	margin: 10px 0;
+}
+
+label {
+display: block;
+margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"] {
+padding: 5px;
+width: 100%;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+input[type="submit"],
+button {
+background-color: #4CAF50;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+background-color: #3e8e41;
+}
+
+.search {
+display: flex;
+align-items: center;
+margin-top: 20px;
+}
+
+#search {
+flex: 1;
+margin-right: 10px;
+}
+
+table {
+width: 100%;
+margin-top: 20px;
+border-collapse: collapse;
+}
+
+thead {
+background-color: #4CAF50;
+color: white;
+}
+
+th,
+td {
+text-align: left;
+padding: 10px;
+border-bottom: 1px solid #ddd;
+}
+
+th:first-child,
+td:first-child {
+width: 40%;
+}
+
+th:last-child,
+td:last-child {
+width: 20%;
+text-align: center;
+}
+
+.deleteBtn {
+background-color: #f44336;
+}
+
+.deleteBtn:hover {
+background-color: #da190b;
+}
